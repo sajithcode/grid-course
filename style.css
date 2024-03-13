@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper div{
+    
+    background-color: #FFD8A8;
+    border: 2px solid #F76707;
+}
+
+.wrapper{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 200px;
+    column-gap: 10px;
+    row-gap: 1em;
+}
+
+.box1{
+    grid-column: 1 / 4;
+    grid-row: 1 / 4;
+}
+
+
